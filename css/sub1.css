@@ -1,0 +1,685 @@
+@charset "UFT-8";
+
+/**********
+ MAIN - S 
+**********/
+
+/* VISUAL - S */
+
+.visual {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 338px;
+  background: url(/proj1/img/visual_company.jpg);
+  background-size: cover;
+}
+.visual .visual-tit {
+  flex: 1;
+  position: absolute;
+  width: 100%;
+  text-align: center;
+  top: 160px;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 56px;
+  color: #fff;
+  padding: 0 20px;
+}
+
+/* VISUAL - E */
+
+/* BTN - S */
+.page-btn h2 {
+  text-align: center;
+  padding: 68px 40px 0;
+  font-weight: 700;
+  font-size: 31px;
+  line-height: 64px;
+}
+.btn-left {
+  display: none;
+}
+.btn-left a {
+  display: block;
+  text-indent: -9999px;
+  overflow: hidden;
+  white-space: nowrap;
+}
+.btn-left img {
+  display: block;
+}
+.btn-right {
+  display: none;
+}
+.btn-right a {
+  display: block;
+  text-indent: -9999px;
+  overflow: hidden;
+  white-space: nowrap;
+}
+.btn-right img {
+  display: block;
+}
+/* BTN - E */
+
+/* PAGE - S */
+.page {
+  display: flex;
+  justify-content: center;
+  background-color: #e9e9e9;
+  padding: 0 160px;
+}
+.page h2 {
+  text-indent: -9999px;
+}
+.page .sub-page {
+  width: 316px;
+
+}
+.page .sub-page .page-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+.page .sub-page .page-box .on {
+  flex: 1;
+  border-bottom: 2px solid #f00;
+  color: #f00;
+  background-color: #fff;
+}
+.page .sub-page .page-box li {
+  font-size: 14px;
+  color: #666;
+  flex: 1;
+  padding: 17px 0 18px;
+  text-align: center;
+  border-right: 1px solid #fff;
+}
+
+
+/* PAGE - E */
+
+/* PAGE2 - S */
+
+.page2 {
+  display: flex;
+  justify-content: center;
+  padding: 80px 160px 45px;
+}
+.page2 h2 {
+  text-indent: -9999px;
+}
+.page2 .sub-tab {
+  width: 960px;
+}
+.page2 .sub-tab .tab-box {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-size: 15px;
+  line-height: 50px;
+}
+.page2 .sub-tab .tab-box li {
+  flex: 1;
+  border: 1px solid #d2d2d2;
+  color: #333;
+}
+.page2 .sub-tab .tab-box .on {
+  background-color: #e9e9e9;
+  color: #f00;
+}
+
+/* PAGE2 - E */
+
+/* TRADITION 1 - S */
+.tradition {
+  border-top: 1px solid #d2d2d2;
+  text-align: center;
+  width: 100%;
+
+
+}
+.tradition1 {
+  padding-top: 183px;
+  background: url(/proj1/img/bg_traditional_01.jpg) no-repeat center top;
+  width: 100%;
+}
+
+.tradition1 .desc1 {
+  width: 500px;
+  margin: 0 auto;
+}
+.tradition1 .desc1 h3 {
+
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 40px;
+  padding-bottom: 10px;
+}
+.tradition1 .desc1 p {
+  font-size: 14px;
+  line-height: 24px;
+}
+
+.tradition1 .desc2 {
+  padding: 150px 0 54px;
+  width: 500px;
+  margin: 0 auto;
+}
+.tradition1 .desc2 h3 {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 30px;
+  padding-bottom: 10px;
+}
+.tradition1 .desc2 p {
+  font-size: 14px;
+  line-height: 24px;
+}
+
+/* TRADITION1 - E */
+
+/* TRADITIO 2 - S */
+.tradition2 {
+  width: 100%;
+  height: 235px;
+  background: url(/proj1/img/bg_traditional_02.jpg) no-repeat center bottom;
+}
+/* TRADITIO 2 - E */
+
+/* TRADITIO 3 - S */
+.tradition3 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 480px;
+  background: url(/proj1/img/bg_traditional_03.jpg) no-repeat center bottom;
+}
+.tradition3 h3 {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 30px;
+  color: #fff;
+}
+/* TRADITIO 3 - E */
+
+/* TRADITIO 4 - S */
+.tradition4 {
+  text-align: center;
+  width: 100%;
+  height: 1995px;
+  background: url(/proj1/img/bg_traditional_04.jpg) no-repeat center top;
+}
+.tradition4 .desc3 {
+  padding: 120px 0 40px;
+  width: 500px;
+  margin: 0 auto;
+}
+.tradition4 .desc3 h3 {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 30px;
+  padding-bottom: 10px;
+}
+.tradition4 .desc3 p {
+
+  font-size: 14px;
+  line-height: 24px;
+}
+
+.tradition4 .desc4 {
+  padding: 155px 0 70px;
+  width: 500px;
+  margin: 0 auto;
+}
+.tradition4 .desc4 h3 {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 30px;
+  padding-bottom: 10px;
+}
+.tradition4 .desc4 p {
+  font-size: 14px;
+  line-height: 24px;
+}
+
+.tradition4 .desc5 {
+  padding: 237px 0 40px;
+  width: 500px;
+  margin: 0 auto;
+}
+.tradition4 .desc5 h3 {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 30px;
+  padding-bottom: 10px;
+}
+.tradition4 .desc5 p {
+  font-size: 14px;
+  line-height: 24px;
+}
+
+.tradition4 .desc6 {
+  padding: 192px 0 40px;
+  width: 500px;
+  margin: 0 auto;
+}
+.tradition4 .desc6 h3 {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 30px;
+  padding-bottom: 10px;
+}
+.tradition4 .desc6 p {
+  font-size: 14px;
+  line-height: 24px;
+}
+
+/* TRADITIO 4 - E */
+
+
+/* BRAND - S */
+/* BOX1 */
+.brand {
+  width: 100%;
+}
+.brand ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.brand li {
+  width: 33.3%;
+  text-align: center;
+  height: 460px;
+
+}
+.brand .brand-box1 {
+  padding-top: 110px;
+  color: #333;
+  background-color: #ffebec;
+  height: 460px;
+}
+
+.brand .brand-box1 h2 {
+  padding-bottom: 36px;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 22px;
+}
+.brand .brand-box1 h3 {
+  padding-bottom: 20px;
+  font-weight: 700;
+  font-size: 36px
+}
+.brand .brand-box1 p {
+  padding-bottom: 17px;
+  font-size: 18px;
+  line-height: 27px;
+}
+.brand .brand-box1 a {
+  display: inline-block;
+  padding-top: 16px;
+  font-weight: 700;
+  font-size: 14px;
+  width: 160px;
+  height: 50px;
+  background-color: #e6224a;
+  color: #fff;
+  transition: all 0.3s;
+}
+
+.brand-box1:hover a {
+  background-color: #333;
+}
+
+/* BOX2 */
+.brand .brand-box2 {
+  padding-top: 110px;
+  color: #333;
+  height: 460px;
+}
+.brand .brand-box2 h2 {
+  padding-bottom: 36px;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 22px;
+}
+.brand .brand-box2 h3 {
+  padding-bottom: 17px;
+  font-weight: 700;
+  font-size: 36px
+}
+.brand .brand-box2 p {
+  padding-bottom: 17px;
+  font-size: 18px;
+  line-height: 27px;
+}
+.brand .brand-box2 a {
+  display: inline-block;
+  padding-top: 16px;
+  font-weight: 700;
+  font-size: 14px;
+  width: 160px;
+  height: 50px;
+  background-color: #333;
+  color: #fff;
+  transition: all 0.3s;
+}
+.brand-box2:hover a {
+  background-color: #e6224a;
+}
+
+/* BOX3 */
+.brand .brand-box3 {
+  padding-top: 110px;
+  color: #333;
+  background-color: #fff1dc;
+  height: 460px;
+}
+.brand .brand-box3 h2 {
+  padding-bottom: 36px;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 22px;
+}
+.brand .brand-box3 h3 {
+  padding-bottom: 17px;
+  font-weight: 700;
+  font-size: 36px
+}
+.brand .brand-box3 p {
+  padding-bottom: 17px;
+  font-size: 18px;
+  line-height: 27px;
+}
+.brand .brand-box3 a {
+  display: inline-block;
+  padding-top: 16px;
+  font-weight: 700;
+  font-size: 14px;
+  width: 160px;
+  height: 50px;
+  background-color: #ba770c;
+  color: #fff;
+  transition: all 0.3s;
+}
+.brand-box3:hover a {
+  background-color: #e6224a;
+}
+
+/* BTN - E */
+
+
+
+
+
+
+
+/**********
+ max-width:1300px  
+***********/
+@media screen and (max-width:1300px) {
+
+  /* PAGE - S */
+  .sub-page {
+    display: none;
+  }
+  .page-btn {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 40px;
+  }
+
+  /* PAGE - E */
+
+  /* BTN - S */
+  .btn-left {
+    display: block;
+    padding: 68px 0;
+    width: 41px;
+  }
+  .btn-right {
+    display: block;
+    padding: 68px 0;
+    width: 41px;
+  }
+
+  /* BTN - E */
+
+  /* PAGE2 - S */
+  .page2 {
+    display: flex;
+    justify-content: center;
+    padding: 80px 40px 45px;
+  }
+  /* PAGE2 - E */
+}
+
+/**********
+ max-width:800px  
+***********/
+@media screen and (max-width:800px) {
+
+  /* BTN - S */
+  .page-btn {
+    padding: 0 20px;
+  }
+  .btn {
+    display: block;
+    /* padding: 68px 0; */
+  }
+  /* BTN - E */
+
+  /* PAGE2 - S */
+  .page2 {
+    display: flex;
+    justify-content: center;
+    padding: 80px 20px 45px;
+  }
+  .page2 .sub-tab .tab-box {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 12px;
+    line-height: 50px;
+  }
+  /* PAGE2 - E */
+
+  /* TRADITION - S */
+
+  .tradition1 {
+    padding-top: 40px;
+    background: url(/proj1/img/bg_traditional_01_m1.jpg) no-repeat 130% top, url(/proj1/img/bg_traditional_01_m2.jpg) no-repeat -30% 50%;
+    background-size: 40% auto;
+  }
+  .tradition1 .desc1 {
+    width: 80%;
+  }
+  .tradition1 .desc2 {
+    padding: 40px 0 30px;
+    width: 80%;
+  }
+
+  .tradition2 {
+    background: url(/proj1/img/bg_traditional_02.jpg) no-repeat center bottom;
+    background-size: 150% auto;
+  }
+  .tradition3 .h3 {
+    width: 80%;
+  }
+  .tradition3 {
+    width: 100%;
+    height: 200px;
+    background-size: auto 100%;
+  }
+
+
+  .tradition4 {
+    background:
+      url(/proj1/img/bg_traditional_04_m1.jpg) no-repeat -30% top,
+      url(/proj1/img/bg_traditional_04_m2.jpg) no-repeat 130% 25%,
+      url(/proj1/img/bg_traditional_04_m3.jpg) no-repeat -30% 58%,
+      url(/proj1/img/bg_traditional_04_m4.jpg) no-repeat 130% 72%,
+      url(/proj1/img/bg_traditional_04_m.jpg) no-repeat center bottom;
+    background-size: 40% auto, 40% auto, 40% auto, 40% auto, 100% auto;
+  }
+
+  .tradition4 .desc3 {
+    padding: 100px 0 40px;
+    width: 80%;
+  }
+  .tradition4 .desc4 {
+    padding: 100px 0 40px;
+    width: 80%;
+  }
+  .tradition4 .desc5 {
+    padding: 100px 0 40px;
+    width: 80%;
+  }
+  .tradition4 .desc6 {
+    padding: 100px 0 40px;
+    width: 80%;
+  }
+  /* TRADITION - E */
+
+  /* BTN - S */
+  .brand {
+    width: 100%;
+  }
+  .brand ul {
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .brand li {
+    width: 100%;
+    text-align: center;
+    height: 213px;
+
+  }
+  .brand .brand-box1 {
+    padding-top: 25px;
+    color: #333;
+    background-color: #ffebec;
+    height: 213px;
+  }
+
+  .brand .brand-box1 h2 {
+    padding-bottom: 19px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 22px;
+  }
+  .brand .brand-box1 h3 {
+    padding-bottom: 11px;
+    font-weight: 700;
+    font-size: 22px
+  }
+  .brand .brand-box1 p {
+    padding-bottom: 10px;
+    font-size: 14px;
+    line-height: 18px;
+  }
+  .brand .brand-box1 a {
+    display: inline-block;
+    padding-top: 16px;
+    font-weight: 700;
+    font-size: 12px;
+    width: 120px;
+    height: 40px;
+    background-color: #e6224a;
+    color: #fff;
+    transition: all 0.3s;
+  }
+  .brand-box1:hover a {
+    background-color: #333;
+  }
+
+
+  .brand .brand-box2 {
+    padding-top: 25px;
+    color: #333;
+    height: 213px;
+  }
+  .brand .brand-box2 h2 {
+    padding-bottom: 19px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 22px;
+  }
+  .brand .brand-box2 h3 {
+    padding-bottom: 11px;
+    font-weight: 700;
+    font-size: 22px
+  }
+  .brand .brand-box2 p {
+    padding-bottom: 10px;
+    font-size: 14px;
+    line-height: 18px;
+  }
+  .brand .brand-box2 a {
+    display: inline-block;
+    padding-top: 16px;
+    font-weight: 700;
+    font-size: 12px;
+    width: 120px;
+    height: 40px;
+    background-color: #333;
+    color: #fff;
+    transition: all 0.3s;
+  }
+  .brand-box2:hover a {
+    background-color: #e6224a;
+  }
+
+
+
+  .brand .brand-box3 {
+    padding-top: 25px;
+    color: #333;
+    background-color: #fff1dc;
+    height: 213px;
+  }
+  .brand .brand-box3 h2 {
+    padding-bottom: 19px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 22px;
+  }
+  .brand .brand-box3 h3 {
+    padding-bottom: 11px;
+    font-weight: 700;
+    font-size: 22px
+  }
+  .brand .brand-box3 p {
+    padding-bottom: 10px;
+    font-size: 14px;
+    line-height: 18px;
+  }
+  .brand .brand-box3 a {
+    display: inline-block;
+    padding-top: 16px;
+    font-weight: 700;
+    font-size: 12px;
+    width: 120px;
+    height: 40px;
+    background-color: #ba770c;
+    color: #fff;
+    transition: all 0.3s;
+  }
+  .brand-box3:hover a {
+    background-color: #e6224a;
+  }
+
+  /* BTN - E */
+}

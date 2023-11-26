@@ -1,0 +1,465 @@
+@charset "UFT-8";
+
+
+/**********
+ MAIN - S 
+**********/
+
+/* VISUAL - S */
+
+.visual {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 338px;
+  background: url(/proj1/img/visual_company.jpg);
+  background-size: cover;
+}
+.visual .visual-tit {
+  flex: 1;
+  position: absolute;
+  width: 100%;
+  text-align: center;
+  top: 160px;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 56px;
+  color: #fff;
+  padding: 0 20px;
+
+}
+
+/* VISUAL - E */
+
+/* PAGE - S */
+.page {
+  display: flex;
+  justify-content: center;
+  background-color: #e9e9e9;
+  padding: 0 160px;
+}
+.page h2 {
+  text-indent: -9999px;
+}
+.page .sub-page {
+  width: 480px;
+
+}
+.page .sub-page .page-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+.page .sub-page .page-box .on {
+  flex: 1;
+  border-bottom: 2px solid #f00;
+  color: #f00;
+  background-color: #fff;
+}
+.page .sub-page .page-box li {
+  font-size: 14px;
+  color: #666;
+  flex: 1;
+  padding: 17px 0 18px;
+  text-align: center;
+  border-left: 1px solid #fff;
+}
+/* PAGE - E */
+
+/* BTN - S */
+.page-btn h2 {
+  text-align: center;
+  padding: 68px 0 0;
+  font-weight: 700;
+  font-size: 31px;
+  line-height: 64px;
+}
+.btn-left {
+  display: none;
+}
+.btn-left a {
+  display: block;
+  text-indent: -9999px;
+  overflow: hidden;
+  white-space: nowrap;
+}
+.btn-left img {
+  display: block;
+}
+.btn-right {
+  display: none;
+}
+.btn-right a {
+  display: block;
+  text-indent: -9999px;
+  overflow: hidden;
+  white-space: nowrap;
+}
+.btn-right img {
+  display: block;
+}
+/* BTN - E */
+
+
+/* POINT - S */
+.point {
+  padding-top: 100px;
+}
+.point h2 {
+  text-indent: -9999px;
+}
+
+.point .point-box .point-box-all {
+  position: relative;
+  top: -200px;
+  z-index: 2;
+  margin: 0 auto;
+  padding: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 960px;
+  height: 260px;
+  background-color: #fff;
+}
+.point .point-box header {
+  width: 50%;
+}
+
+.point .point-box li a {
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 36px;
+}
+.point .point-box li p {
+  font-size: 24px;
+  line-height: 38px;
+  padding: 10px 0;
+}
+.point .point-box li span {
+  font-size: 16px;
+  line-height: 22px;
+  color: #b2b2b2;
+}
+.point .point-box img {
+  width: 100%;
+}
+
+.point-visual {
+  width: 100%;
+  height: 479px;
+  background: url(/proj1/img/card1.png) no-repeat;
+}
+
+/* POINT - E */
+
+/* CARD - S */
+.card {
+  width: 960px;
+  margin: 0 auto;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  padding: 0 160px 150px;
+
+}
+
+.card header h4 {
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 64px;
+}
+.card header p {
+  padding-top: 24px;
+  font-size: 18px;
+  line-height: 28px;
+}
+.card .card-box {
+  display: flex;
+  padding-top: 30px;
+}
+
+.card .card-box .box1 {
+  display: flex;
+  flex-flow: column;
+  text-align: center;
+  padding-right: 45px;
+
+}
+
+.card .card-box .box1 span {
+  padding-top: 20px;
+  margin-top: 20px;
+  font-size: 20px;
+}
+
+.card .card-box .box2 {
+  display: flex;
+  flex-flow: column;
+  text-align: center;
+}
+
+.card .card-box .box2 span {
+  margin-top: 20px;
+  padding-bottom: 15px;
+  font-size: 20px;
+}
+
+/* CARD - E */
+
+
+
+/**********
+ MAIN - E 
+**********/
+
+
+
+
+
+
+
+
+
+/**********
+ max-width:1300px  
+***********/
+@media screen and (max-width:1300px) {
+
+  /* PAGE - S */
+  .sub-page {
+    display: none;
+  }
+  .btn {
+    display: block;
+    padding: 0 40px;
+  }
+  .page-btn {
+    display: flex;
+    justify-content: space-between;
+  }
+  /* PAGE - E */
+
+  /* BTN - S */
+  .btn-left {
+    display: block;
+    padding: 68px 0;
+    width: 41px;
+  }
+  .btn-right {
+    display: block;
+    padding: 68px 0;
+    width: 41px;
+  }
+  /* BTN - E */
+
+  /* POINT - S */
+  .point .point-box .point-box-all {
+    position: relative;
+    top: -200px;
+    z-index: 2;
+    margin: 0 auto;
+    padding: 30px 40px;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    width: 90%;
+    height: 260px;
+    background-color: #fff;
+  }
+  .point .point-box header {
+    width: 80%;
+  }
+
+  /* POINT - E */
+
+  /* CARD - S */
+  .card {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    padding: 0 40px 150px;
+  }
+
+  .card header h4 {
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 64px;
+  }
+  .card header p {
+    padding-top: 24px;
+    font-size: 18px;
+    line-height: 28px;
+  }
+  .card .card-box {
+    display: flex;
+    flex-flow: column;
+    padding-top: 30px;
+  }
+
+  .card .card-box .box1 {
+    display: flex;
+    flex-flow: column;
+    text-align: center;
+    padding-right: 0;
+  }
+  .card .card-box .box1 img {
+    width: 300px;
+  }
+  .card .card-box .box1 span {
+    margin-top: 20px;
+    padding-bottom: 15px;
+    font-size: 20px;
+  }
+
+  .card .card-box .box2 {
+    display: flex;
+    flex-flow: column;
+    text-align: center;
+  }
+  .card .card-box .box2 img {
+    width: 300px;
+  }
+  .card .card-box .box2 span {
+    margin-top: 20px;
+    padding-bottom: 15px;
+    font-size: 20px;
+  }
+
+  /* CARD - E */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/**********
+ max-width:800px  
+***********/
+
+@media screen and (max-width:800px) {
+
+
+  .page-btn h2 {
+    text-align: center;
+    padding: 68px 0 0;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 64px;
+  }
+  /* BTN - S */
+  .btn {
+    display: block;
+    padding: 0 20px;
+  }
+  /* BTN - E */
+
+  /* POINT - S */
+
+  .point .point-box .point-box-all {
+    position: relative;
+    top: -200px;
+    z-index: 2;
+    margin: 0 auto;
+    padding: 30px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    flex-flow: column;
+    width: 90%;
+    height: 260px;
+    background-color: #fff;
+  }
+  .point .point-box header {
+    width: 80%;
+    padding-bottom: 15px;
+  }
+
+  .point .point-box li a {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 26px;
+  }
+  .point .point-box li p {
+    font-size: 20px;
+    line-height: 28px;
+    padding: 10px 0;
+  }
+  .point .point-box li span {
+    font-size: 12px;
+    line-height: 18px;
+    color: #b2b2b2;
+  }
+  /* POINT - E */
+
+  /* CARD - S */
+  .card {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    padding: 0 20px 150px;
+  }
+
+  .card header h4 {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 26px;
+  }
+  .card header p {
+    padding-top: 24px;
+    font-size: 16px;
+    line-height: 26px;
+  }
+  .card .card-box {
+    display: flex;
+    flex-flow: column;
+    padding-top: 30px;
+  }
+
+  .card .card-box .box1 {
+    display: flex;
+    flex-flow: column;
+    text-align: center;
+    padding-right: 0;
+  }
+  .card .card-box .box1 img {
+    width: 300px;
+  }
+  .card .card-box .box1 span {
+    margin-top: 20px;
+    padding-bottom: 15px;
+    font-size: 16px;
+  }
+
+  .card .card-box .box2 {
+    display: flex;
+    flex-flow: column;
+    text-align: center;
+  }
+  .card .card-box .box2 img {
+    width: 300px;
+  }
+  .card .card-box .box2 span {
+    margin-top: 20px;
+    padding-bottom: 15px;
+    font-size: 16px;
+  }
+
+  /* CARD - E */
+
+}

@@ -1,0 +1,17 @@
+[
+  {
+    "img": "/proj1/img/suger-icon.png",
+    "number": "01",
+    "desc": "에스프레소를 한모금 마신 뒤,<br>설탕과 함께 달콤하게 드셔보세요."
+  },
+  {
+    "img": "/proj1/img/drink-icon.png",
+    "number": "02",
+    "desc": "탄산수로 입 안을<br>깔끔하게 정리해주세요."
+  },
+  {
+    "img": "/proj1/img/coffe-icon.png",
+    "number": "03",
+    "desc": "마무리로 베이에이션 에스프레소를<br>즐겨주세요."
+  }
+]

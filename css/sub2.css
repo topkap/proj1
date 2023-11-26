@@ -1,0 +1,588 @@
+@charset "UFT-8";
+
+
+/**********
+ MAIN - S 
+**********/
+
+/* VISUAL - S */
+
+.visual {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 338px;
+  background: url(/proj1/img/visual_company.jpg);
+  background-size: cover;
+}
+.visual .visual-tit {
+  flex: 1;
+  position: absolute;
+  width: 100%;
+  text-align: center;
+  top: 160px;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 56px;
+  color: #fff;
+}
+
+/* VISUAL - E */
+
+/* PAGE - S */
+.page {
+  display: flex;
+  justify-content: center;
+  background-color: #e9e9e9;
+  padding: 0 160px;
+}
+.page h2 {
+  text-indent: -9999px;
+}
+.page .sub-page {
+  width: 786px;
+}
+.page .sub-page .page-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+.page .sub-page .page-box .on {
+  flex: 1;
+  border-bottom: 2px solid #f00;
+  color: #f00;
+  background-color: #fff;
+}
+.page .sub-page .page-box li {
+  font-size: 14px;
+  color: #666;
+  flex: 1;
+  padding: 17px 0 18px;
+  text-align: center;
+  border-left: 1px solid #fff;
+}
+/* PAGE - E */
+
+/* BTN - S */
+.page-btn h2 {
+  text-align: center;
+  padding: 68px 0 0;
+  font-weight: 700;
+  font-size: 31px;
+  line-height: 64px;
+}
+.btn-left {
+  display: none;
+}
+.btn-left a {
+  display: block;
+  text-indent: -9999px;
+  overflow: hidden;
+  white-space: nowrap;
+}
+.btn-left img {
+  display: block;
+}
+.btn-right {
+  display: none;
+}
+.btn-right a {
+  display: block;
+  text-indent: -9999px;
+  overflow: hidden;
+  white-space: nowrap;
+}
+.btn-right img {
+  display: block;
+}
+/* BTN - E */
+
+/* BAR - S */
+.bar {
+  padding: 68px 60px 0;
+}
+.bar h2 {
+  text-indent: -9999px;
+}
+.bar .bar-box {
+  margin: 0 auto;
+  width: 960px;
+  height: 360px;
+  background: url(/proj1/img/espressobar_02.png) no-repeat;
+}
+.bar .bar-box .desc {
+  padding: 132px 0;
+  text-align: center;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 48px;
+  color: #fff;
+  z-index: 1;
+}
+
+/* BAR - E */
+
+/* SET - S */
+.set {
+  padding-top: 75px;
+}
+.set .tit {
+  text-align: center;
+  padding: 0 0 174px;
+  font-weight: 700;
+  font-size: 31px;
+  line-height: 64px;
+}
+.set .set-box {
+  display: flex;
+  align-items: center;
+  width: 60%;
+  margin: 0 auto;
+  max-height: 0px;
+}
+
+.set .set-box .box1 {
+  flex: 1;
+  height: 323px;
+  background: #f9f9f9;
+  text-align: center;
+}
+
+
+.set .set-box .box1 img {
+  padding: 36px 0 18px;
+  width: 138px;
+}
+.set .set-box .box1 span {
+  /* padding-top: 200px; */
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 23px;
+  color: #b2b2b2;
+}
+.set .set-box .box1 p {
+
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+}
+
+.set .set-box .box2 {
+  flex: 1;
+  height: 323px;
+  background: #f4f4f4;
+  text-align: center;
+}
+.set .set-box .box2 img {
+  padding: 36px 0 18px;
+  width: 138px;
+}
+.set .set-box .box2 span {
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 23px;
+  color: #b2b2b2;
+}
+.set .set-box .box2 p {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+}
+
+.set .set-box .box3 {
+  flex: 1;
+  height: 323px;
+  background: #f1f1f1;
+  text-align: center;
+}
+.set .set-box .box3 img {
+  padding: 36px 0 18px;
+  width: 138px;
+}
+.set .set-box .box3 span {
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 23px;
+  color: #b2b2b2;
+}
+.set .set-box .box3 p {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+}
+
+.set .set-visual {
+  display: flex;
+  width: 100%;
+  height: 480px;
+  background: url(/proj1/img/espressobar_03.png) no-repeat center top /cover;
+}
+/* SET - E */
+
+/* STORE - S */
+
+.store {
+  padding: 0 160px;
+}
+.store .tit {
+  text-align: center;
+  padding: 117px 0 25px;
+  font-weight: 700;
+  font-size: 31px;
+  line-height: 64px;
+}
+.store .store-box {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  padding-bottom: 100px;
+  padding: 0 0 86px 0;
+  cursor: pointer;
+}
+
+.store .store-box .box1 {
+  position: relative;
+  background-image: url(/proj1/img/es_store_01.png);
+  width: 390px;
+  height: 390px;
+  /* padding: 3px; */
+  margin: 3px;
+}
+
+.store .store-box .box1 .back {
+  background-image: url(/proj1/img/es_store_01_back.png);
+  width: 390px;
+  height: 390px;
+  position: absolute;
+  background-repeat: no-repeat;
+  background-position: center;
+  opacity: 0;
+  transition: all 0.5s;
+}
+.store .box1:hover .back {
+  opacity: 1;
+}
+
+.store .store-box .box2 {
+  position: relative;
+  background-image: url(/proj1/img/es_store_02.png);
+  width: 390px;
+  height: 390px;
+  margin: 3px;
+}
+
+
+.store .store-box .box2 .back {
+  background-image: url(/proj1/img/es_store_02_back.png);
+  width: 390px;
+  height: 390px;
+  position: absolute;
+  background-repeat: no-repeat;
+  background-position: center;
+  opacity: 0;
+  transition: all 0.5s;
+}
+.store .box2:hover .back {
+  opacity: 1;
+}
+
+/* STORE - E */
+
+
+
+
+
+
+
+
+
+/**********
+ MAIN - E 
+**********/
+
+/**********
+ max-width:1300px  
+***********/
+@media screen and (max-width:1300px) {
+
+  /* PAGE - S */
+  .sub-page {
+    display: none;
+  }
+  .btn {
+    display: block;
+    padding: 0 40px;
+  }
+  .page-btn {
+    display: flex;
+    justify-content: space-between;
+  }
+  /* PAGE - E */
+
+  /* BTN - S */
+  .btn-left {
+    display: block;
+    padding: 68px 0;
+    width: 41px;
+  }
+  .btn-right {
+    display: block;
+    padding: 68px 0;
+    width: 41px;
+  }
+  /* BTN - E */
+  /* BAR - S */
+  .bar {
+    padding: 0 40px;
+  }
+  .bar .bar-box {
+    /* margin: 0 auto; */
+    width: 100%;
+    height: 300px;
+    background: url(/proj1/img/espressobar_02.png)no-repeat 50% 0;
+    background-size: cover;
+  }
+
+  .bar .bar-box .desc {
+    padding: 134px 0;
+    text-align: center;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 26px;
+    color: #fff;
+    z-index: 1;
+  }
+  /* BAR - E */
+  /* SET - S */
+
+  .set .set-box {
+    width: 90%;
+  }
+  .set .set-box .box1 img {
+    width: 100px;
+  }
+  .set .set-box .box2 img {
+    width: 100px;
+  }
+  .set .set-box .box3 img {
+    width: 100px;
+  }
+  /* SET - E */
+  .store {
+    padding: 0 40px;
+  }
+}
+
+
+
+
+
+/**********
+ max-width:800px  
+***********/
+
+@media screen and (max-width:800px) {
+
+
+  .page-btn h2 {
+    text-align: center;
+    padding: 68px 0 0;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 64px;
+  }
+  /* BTN - S */
+  .btn {
+    display: block;
+    padding: 0 20px;
+  }
+  /* BTN - E */
+
+  /* BAR - S */
+  .bar {
+    padding: 0 20px;
+  }
+
+  .bar .bar-box {
+    background-size: cover;
+  }
+  .bar .bar-box .desc {
+    padding: 130px 0;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 20px;
+    color: #fff;
+    z-index: 1;
+  }
+
+  /* BAR - E */
+
+  /* SET - S */
+  .set .tit {
+    text-align: center;
+    padding: 0 0 44px;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 64px;
+  }
+  .set .set-box {
+    display: flex;
+    align-items: center;
+    flex-flow: column;
+    max-height: 300px;
+  }
+
+  .set .set-box .box1 {
+    width: 100%;
+    height: 200px;
+  }
+  .set .box1 .box1-inner {
+    padding: 0 60px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+  }
+  .set .set-box .box1 img {
+    padding: 36px 0;
+    width: 100px;
+  }
+  .set .set-box .box1 span {
+    padding: 0 30px;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 23px;
+    color: #b2b2b2;
+  }
+  .set .set-box .box1 p {
+    font-weight: 500;
+    font-size: 14px;
+    text-align: left;
+  }
+
+  .set .set-box .box2 {
+    width: 100%;
+    height: 200px;
+  }
+  .set .box2 .box2-inner {
+    padding: 0 60px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+  }
+  .set .set-box .box2 img {
+    padding: 36px 0;
+    width: 100px;
+  }
+  .set .set-box .box2 span {
+    padding: 0 30px;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 23px;
+    color: #b2b2b2;
+  }
+  .set .set-box .box2 p {
+    font-weight: 500;
+    font-size: 14px;
+    text-align: left;
+  }
+
+  .set .set-box .box3 {
+    width: 100%;
+    height: 200px;
+  }
+  .set .box3 .box3-inner {
+    padding: 0 60px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+  }
+  .set .set-box .box3 img {
+    padding: 36px 0;
+    width: 100px;
+  }
+  .set .set-box .box3 span {
+    padding: 0 30px;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 23px;
+    color: #b2b2b2;
+  }
+  .set .set-box .box3 p {
+    font-weight: 500;
+    font-size: 14px;
+    text-align: left;
+  }
+  /* SET - E */
+
+  /* STORE - S */
+  .store {
+    padding: 0 20px;
+  }
+  .store .tit {
+    text-align: center;
+    padding: 117px 0 25px;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 64px;
+  }
+
+  .store .store-box {
+    display: flex;
+    justify-content: center;
+    flex-flow: column;
+    text-align: center;
+    padding-bottom: 100px;
+    padding: 0 0 86px 0;
+  }
+
+  .store .store-box .box1 {
+    position: relative;
+    background-image: url(/proj1/img/store-3l-dark.png);
+    width: 100%;
+    height: 300px;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 3px;
+  }
+
+  .store .store-box .box1 .back {
+    background-image: url(/proj1/img/store-3l.png);
+    width: 100%;
+    height: 300px;
+    position: absolute;
+    background-repeat: no-repeat;
+    background-position: center;
+    opacity: 0;
+    transition: all 0.5s;
+  }
+  .store .box1:hover .back {
+    opacity: 1;
+  }
+
+  .store .store-box .box2 {
+    position: relative;
+    background-image: url(/proj1/img/pascucci-3l-dark.png);
+    width: 100%;
+    height: 300px;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 3px;
+  }
+
+
+  .store .store-box .box2 .back {
+    background-image: url(/proj1/img/pascucci-3l.png);
+    width: 100%;
+    height: 300px;
+    position: absolute;
+    background-repeat: no-repeat;
+    background-position: center;
+    opacity: 0;
+    transition: all 0.5s;
+  }
+  .store .box2:hover .back {
+    opacity: 1;
+  }
+}

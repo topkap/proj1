@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>로그인</title>
+
+  <link rel="shortcut icon" href="/proj1/img/pas_favicon.ico">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/xeicon@2.3.3/xeicon.min.css">
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css">
+  <link href="https://hangeul.pstatic.net/hangeul_static/css/nanum-gothic-coding.css" rel="stylesheet">
+
+  <link rel="stylesheet" href="/proj1/css/reset.css">
+  <link rel="stylesheet" href="/proj1/css/common.css">
+  <link rel="stylesheet" href="/proj1/css/layer.css">
+  <link rel="stylesheet" href="/proj1/css/login.css">
+  <script defer src="/proj1/js/quick.js"></script>
+</head>
+
+<body>
+  <div class="wrap">
+    <header id="header" class="header">
+      <div class="inner">
+        <h1 class="logo"><a href="/proj1/index.html">로고<img src="/proj1/img/h1_logo.png" alt=""></a></h1>
+        <div class="gnb">
+          <ul>
+            <li class="depth1"><a href="sub1.html">CAFFE PASCUCCI</a>
+              <ul class="depth2">
+                <li><a href="sub1.html">브랜드 소개</a></li>
+                <li><a href="sub1.html">커피&컬쳐</a></li>
+              </ul>
+            </li>
+            <li class="depth1"><a href="/proj1/sub/sub2.html">MENU</a>
+              <ul class="depth2">
+                <li><a href="/proj1/sub/sub2.html">Coffe</a></li>
+                <li><a href="/proj1/sub/sub2.html">Beverage</a></li>
+                <li><a href="/proj1/sub/sub2.html">Gelato</a></li>
+                <li><a href="/proj1/sub/sub2.html">Food</a></li>
+                <li><a href="/proj1/sub/sub2.html">Espresso bar</a></li>
+              </ul>
+            </li>
+            <li class="depth1"><a href="/proj1/sub/sub3.html">FRANCHISE</a>
+              <ul class="depth2">
+                <li><a href="/proj1/sub/sub3.html">가맹점개설안내</a></li>
+                <li><a href="/proj1/sub/sub3.html">가맹설명회안내</a></li>
+                <li><a href="/proj1/sub/sub3.html">가맹문의&FAQ</a></li>
+              </ul>
+            </li>
+            <li class="depth1"><a href="/proj1/sub/sub4.html">NEWS</a>
+              <ul class="depth2">
+                <li><a href="/proj1/sub/sub4.html">공지사항</a></li>
+                <li><a href="/proj1/sub/sub4.html">이벤트</a></li>
+                <li><a href="/proj1/sub/sub4.html">파스쿠찌 Talk</a></li>
+                <li><a href="/proj1/sub/sub4.html">홍보센터</a></li>
+              </ul>
+            </li>
+            <li class="depth1"><a href="/proj1/sub/sub5.html">CUSTOMER</a>
+              <ul class="depth2">
+                <li><a href="/proj1/sub/sub5.html">제휴안내</a></li>
+                <li><a href="/proj1/sub/sub5.html">자주하는질문</a></li>
+                <li><a href="/proj1/sub/sub5.html">1:1문의하기</a></li>
+              </ul>
+            </li>
+          </ul>
+          <p class="gnb-bg"></p>
+        </div>
+        <div class="tnb">
+          <ul class="tnb-menu">
+            <li><a href="/proj1/sub/login.html">로그인</a></li>
+            <li><a href="/proj1/sub/login.html" class="tnb-menu-eng">회원가입</a></li>
+          </ul>
+        </div>
+        <div class="mobile">
+          <button type="button" class="mobile-btn" id="bttn">버튼
+            <span></span><span></span><span></span><span></span>
+          </button>
+          <div class="mobile-wrap">
+            <div class="mobile-tnb">
+              <ul class="mobile-tnb-menu">
+                <li><a href="/proj1/sub/login.html">로그인</a></li>
+                <li><a href="/proj1/sub/login.html">회원가입</a></li>
+              </ul>
+            </div>
+            <nav class="mobile-gnb" id="nav">
+              <ul>
+                <li class="mobile-depth1"><a href="/proj1/sub/sub1.html">CAFFE PASCUCCI<i class="xi-angle-down-min"></i></a>
+                  <ul class="mobile-depth2">
+                    <li><a href="/proj1/sub/sub1.html">브랜드 소개</a></li>
+                    <li><a href="/proj1/sub/sub1.html">커피&컬쳐</a></li>
+                  </ul>
+                </li>
+                <li class="mobile-depth1"><a href="/proj1/sub/sub2.html">MENU<i class="xi-angle-down-min"></i></a>
+                  <ul class="mobile-depth2">
+                    <li><a href="/proj1/sub/sub2.html">Coffe</a></li>
+                    <li><a href="/proj1/sub/sub2.html">Beverage</a></li>
+                    <li><a href="/proj1/sub/sub2.html">Gelato</a></li>
+                    <li><a href="/proj1/sub/sub2.html">Food</a></li>
+                    <li><a href="/proj1/sub/sub2.html">Espresso bar</a></li>
+                  </ul>
+                </li>
+                <li class="mobile-depth1"><a href="/proj1/sub/sub3.html">FRANCHISE<i class="xi-angle-down-min"></i></a>
+                  <ul class="mobile-depth2">
+                    <li><a href="/proj1/sub/sub3.html">가맹점개설안내</a></li>
+                    <li><a href="/proj1/sub/sub3.html">가맹설명회안내</a></li>
+                    <li><a href="/proj1/sub/sub3.html">가맹문의&FAQ</a></li>
+                  </ul>
+                </li>
+                <li class="mobile-depth1"><a href="/proj1/sub/sub4.html">NEWS<i class="xi-angle-down-min"></i></a>
+                  <ul class="mobile-depth2">
+                    <li><a href="/proj1/sub/sub4.html">공지사항</a></li>
+                    <li><a href="/proj1/sub/sub4.html">이벤트</a></li>
+                    <li><a href="/proj1/sub/sub4.html">파스쿠찌 Talk</a></li>
+                    <li><a href="/proj1/sub/sub4.html">홍보센터</a></li>
+                  </ul>
+                </li>
+                <li class="mobile-depth1"><a href="/proj1/sub/sub5.html">CUSTOMER<i class="xi-angle-down-min"></i></a>
+                  <ul class="mobile-depth2">
+                    <li><a href="/proj1/sub/sub5.html">제휴안내</a></li>
+                    <li><a href="/proj1/sub/sub5.html">자주하는질문</a></li>
+                    <li><a href="/proj1/sub/sub5.html">1:1문의하기</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+      </div>
+    </header>
+    <main id="main" class="main">
+      <section class="visual sec">
+        <h2 class="visual-tit">로그인</h2>
+      </section>
+      <section class="login">
+        <h2>로그인</h2>
+        <p>로그인하시면 VOC목록을 열람하실 수 있습니다.</p>
+        <form>
+          <div id="login_input">
+            <input type="text" autofocus placeholder="아이디 입력">
+            <input type="password" placeholder="비밀번호 입력">
+          </div>
+          <fieldset>
+            <label><input type="checkbox" id="auto" name="login">자동 로그인</label>
+            <label><input type="checkbox" id="sace" name="login">아이디 저장</label>
+          </fieldset>
+          <div id="login_bttn">
+            <button type="submit" class="order">로그인</button>
+          </div>
+          <ul class="finde">
+            <li>회원가입</li>
+            <li>아이디 찾기</li>
+            <li>비밀번호 찾기</li>
+          </ul>
+        </form>
+      </section>
+    </main>
+    <footer id="footer" class="footer">
+      <div class="inner">
+        <h2 class="f-logo"><img src="/proj1/img/foot_logo.png" alt="파스쿠찌"></h2>
+        <div class="f-top">
+          <ul class="f-menu">
+            <li><a href="#">해피포인트</a></li>
+            <li><a href="#">개인정보 처리방침</a></li>
+            <li><a href="#">안전보건경영방침</a></li>
+            <li><a href="#">영상정보처리기기운영·관리방침</a></li>
+            <li><a href="#">이용약관</a></li>
+          </ul>
+          <div class="f-family">
+            <p class="f-family-tit">패밀리 사이트 바로가기</p>
+            <ul class="f-family-box">
+              <li><a href="#">SPC그룹</a></li>
+              <li><a href="#">던킨도너츠</a></li>
+              <li><a href="#">베스킨라빈스31</a></li>
+              <li><a href="#">해피포인트카드</a></li>
+              <li><a href="#">파리바게뜨</a></li>
+              <li><a href="#">파리크라상</a></li>
+              <li><a href="#">해피콘</a></li>
+              <li><a href="#">SPC컬러너리아카데미</a></li>
+              <li><a href="#">파스쿠찌 이탈리아</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="f-contents">
+          <ul class="f-contents-cop">
+            <li>(주) 파리크라상</li>
+            <li>사업자등록 번호: 129-81-07244</li>
+          </ul>
+          <ul class="f-contents-addr">
+            <li>경기도 성남시 중원구 사기막골로31번길 18</li>
+            <li>FAX. 0505-073-0210</li>
+            <li>고객상담센터 080-731-2027</li>
+          </ul>
+          <p>ALL RIGHTS RESERVED ⓒ <span>2016 THE PASCUCCI</span>, PARIS CROISSANT CO., LTD.</p>
+        </div>
+      </div>
+    </footer>
+  </div>
+
+</body>
+
+</html>
