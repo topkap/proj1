@@ -6,7 +6,7 @@
   justify-content: center;
   width: 100%;
   height: 338px;
-  background: url(/img/visual_company.jpg);
+  background: url(/proj1/img/visual_company.jpg);
   background-size: cover;
 }
 .visual .visual-tit {
@@ -33,7 +33,7 @@
   font-weight: 700;
   font-size: 40px;
   line-height: 58px;
-  background: url(/img/bg_sub_top.gif) center top/cover no-repeat;
+  background: url(/proj1/img/bg_sub_top.gif) center top/cover no-repeat;
   ;
 }
 .login p {
@@ -119,7 +119,7 @@ max-width:1200px
     font-weight: 700;
     font-size: 30px;
     line-height: 58px;
-    background: url(/img/bg_sub_top.gif) center top/cover no-repeat;
+    background: url(/proj1/img/bg_sub_top.gif) center top/cover no-repeat;
     ;
   }
   .login p {
@@ -224,7 +224,7 @@ max-width:1200px
     font-weight: 700;
     font-size: 30px;
     line-height: 58px;
-    background: url(/img/bg_sub_top.gif) center top/cover no-repeat;
+    background: url(/proj1/img/bg_sub_top.gif) center top/cover no-repeat;
     ;
   }
   .login p {
